@@ -23,6 +23,14 @@ $RECYCLE.BIN/
 
 # OSX
 # =========================
+Debug/
+*.VC
+*.sln
+*.suo
+*.db
+*.opendb
+*.filters
+LexicalAnalyzer/Debug/
 
 .DS_Store
 .AppleDouble
