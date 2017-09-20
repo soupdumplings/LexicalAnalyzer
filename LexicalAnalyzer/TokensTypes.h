@@ -1,0 +1,14 @@
+#pragma once
+enum tokensType 
+	{
+		INDEFICATOR, 
+		WORD, 
+		FOREIGNWORD, 
+		NUMBER, 
+		DATE, 
+		PHONENUMBER,
+		SEPARATOR,
+		PUNCTUATIONSYMBOL,
+		ENDOFSENTENSE,
+		ERROR 
+	};

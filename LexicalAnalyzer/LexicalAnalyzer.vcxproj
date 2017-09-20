@@ -142,6 +142,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="FileReader.h" />
+    <ClInclude Include="LexicalAnalyzer.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="Table.h" />
+    <ClInclude Include="TokensTypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileReader.cpp" />
+    <ClCompile Include="LexicalAnalyzer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Parser.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
