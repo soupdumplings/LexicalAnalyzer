@@ -9,6 +9,11 @@ class Parser
 		string _parsingString;
 		size_t _positionInString;
 		Parser& operator =(const Parser&);
+		Parser(const Parser& reader);
+		bool isDataSymbol();
+		bool isSymbol(const char& ch);
+		bool isLetter(const char& ch);
+		bool isNumber(const char& ch);
 	public:
 		Parser(const string&);
 		~Parser();

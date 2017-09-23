@@ -8,13 +8,13 @@ using namespace std;
 class FileReader
 {
 	private:
-		FILE* _file;
+		ifstream currentStream;
 		string buffer;
 		FileReader& operator =(const FileReader&);
-	public:
-		explicit FileReader(string& fileName);
-		explicit FileReader(FILE& file);
 		FileReader(const FileReader& reader);
+	public:
+		explicit FileReader(const string& fileName);
 		~FileReader();
-		string& readLine() const;
+		string& readLine();
+		bool endOfFile();
 };
